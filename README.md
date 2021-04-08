@@ -5,7 +5,7 @@
  - Script
 
 ## Architecture
-![Architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/xppe9fycgcsz97xyy9m3.jpg)
+![Architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/cevgs1she8iybt3xk46w.png)
 
 ## Terraform
 

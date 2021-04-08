@@ -26,6 +26,7 @@ Variables :
 **ami** : AMI of EC2, recommended to use Amazon Linux 2 [To find the latest version](https://aws.amazon.com/fr/blogs/compute/query-for-the-latest-amazon-linux-ami-ids-using-aws-systems-manager-parameter-store/)
 
 **bucket_logs** : Name of the bucket where the logs of Session Manager will be set (useful only when using the console for troubleshooting an EC2)  -> [Details](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-logging.html)
+Note that in terraform the default path will bucket_logs/ssm/
 
 **session_manager_key** : ARN of KMS Key for Session Manager
 

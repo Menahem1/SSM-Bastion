@@ -7,6 +7,8 @@
 ## Architecture
 ![Architecture](https://dev-to-uploads.s3.amazonaws.com/uploads/articles/0ulu5mr5cibjmqe5nhht.png)
 
+[Blog post](https://dev.to/menahem/ssm-bastion-how-to-connect-on-aws-private-instance-s-from-internet-2hmf)
+
 ## Terraform
 
 The Terraform folder deploy's the following elements :

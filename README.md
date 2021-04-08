@@ -19,18 +19,31 @@ The Terraform folder deploy's the following elements :
 
 Variables :
 **ssm_arn** : ARN for Managed policy of SSM (no need to custom)
+
 **region** : Region where you want to deploy SSM-Bastion (need to define)
+
 **ami** : AMI of EC2, recommended to use Amazon Linux 2 [To find the latest version](https://aws.amazon.com/fr/blogs/compute/query-for-the-latest-amazon-linux-ami-ids-using-aws-systems-manager-parameter-store/)
+
 **bucket_logs** : Name of the bucket where the logs of Session Manager will be set (useful only when using the console for troubleshooting an EC2)  -> [Details](https://docs.aws.amazon.com/systems-manager/latest/userguide/session-manager-logging.html)
+
 **session_manager_key** : ARN of KMS Key for Session Manager
+
 **s3_key** : ARN of KMS S3 Logs for Session Manager
+
 **vpc_id** : VPC ID where the SSM-Bastion will be deployed
+
 **kms_ebs_id** : ARN of KMS Key for the EBS disk
+
 **key_name** : Optionnal, if you want also put a SSH Key into the EC2 Bastion-SSM
+
 **sub1a** : Subnet ID of AZ A for ASG
+
 **sub1b** : Subnet ID of AZ B for ASG
+
 **sub1c** : Subnet ID of AZ C for ASG
+
 **schedule_stop** : When stop the SSM-Bastion, cron format, default 30 22 * * MON-FRI (monday to friday, stop at 22:30)
+
 **schedule_start** : When start the SSM-Bastion, cron format, default 30 7 * * MON-FRI (monday to friday, start at 7:30)
 
 ## Script

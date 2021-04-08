@@ -18,6 +18,7 @@ The Terraform folder deploy's the following elements :
  - Security Group : allow only himself in ingress in 443 (for endpoint's) and in egress all the destination (you can customize with only your VPC CIDR)
 
 Variables :
+
 **ssm_arn** : ARN for Managed policy of SSM (no need to custom)
 
 **region** : Region where you want to deploy SSM-Bastion (need to define)

@@ -27,7 +27,7 @@ if [ $# -eq 0 ]; then
     echo "Enter the port to open for the forwarding on your laptop"
     read port_source
 
-    echo "VPC-ID (optionnal when you have only 1 SSM Bastion in your account)"
+    echo "VPC-ID (optional when you have only 1 SSM Bastion in your account)"
     read vpc_id
     
 else
